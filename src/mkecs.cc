@@ -48,20 +48,15 @@ class Internal {
 
  private:
   int K, V;
-
   vector<umap_ii> adj;
   vector<int> deg;
-
   queue<pii> fc_queue;
   vector<vector<int> > tmp_vs;
   vector<vector<pii> > tmp_es;
-
   vector<vector<int> > comps_vs;
   vector<vector<pii> > comps_es;
-
   vector<vector<int> > kcore_adj;
   vector<int> kcore_deg;
-
   vector<int> uf_par;
 
   inline int UFRoot(int x) {
