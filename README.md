@@ -1,10 +1,10 @@
-# M*k*ECSs by Random Contraction
+# MkECSs by Random Contraction
 
-This software library efficiently decomposes a graph into maximal *k*-edge-connected subgraphs (M*k*ECSs) by our new randomized algorithm based on *random contraction*.
+This software library efficiently decomposes a graph into maximal *k*-edge-connected subgraphs (MkECSs) by our new randomized algorithm based on *random contraction*.
 
 Capturing sets of closely related vertices from large networks
 is an essential task in many applications such as social network analysis, bioinformatics, and web link research.
-The idea of using M*k*ECS as a model of cohesive clusters
+The idea of using MkECS as a model of cohesive clusters
 was recently proposed to overcome drawbacks of classic models such as *k*-core.
 
 Please see [our paper](http://www-imai.is.s.u-tokyo.ac.jp/~takiba/papers/mkecs_cikm13.pdf) for the algorithm specification, theoretical analysis and experimental evaluation.
@@ -27,7 +27,7 @@ Please see [our paper](http://www-imai.is.s.u-tokyo.ac.jp/~takiba/papers/mkecs_c
 
 ### Details
 
-* M*k*ECSs with size one are discarded.
+* MkECSs with size one are discarded.
 * In a graph file, each line should contain two integers describing an edge (see `sample.txt`). Vertices should be described by integers starting from zero.
 * Execute `make test` to run tests (*google-gtest* is required).
 
